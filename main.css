@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    color: inherit;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    color: #bbb;
+    text-align: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: #444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #2b98f0;
+    text-decoration: none;
+}
+
+sup {
+    color: tomato;
+}
+
+section {
+    padding: 3% 15% 3% 15%;
+    background-color: #222;
+}
+
+section + section {
+    border-top: thin solid #333;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: calc((100vw - (15vw * 2)) * (9/16)); /* (100 - padding) * aspect_ratio */
+}
+
+.link-button {
+    width: 150px;
+    color: #333;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #76B5F8;
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.link-button:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0px 8px 20px 0px #000000aa;
+}
+
+.download-field {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-field + .download-field {
+    border-top: thin solid #333;
+}
+
+.download-field:last-of-type {
+    margin-bottom: 2rem;
+}
+
+#footer {
+    padding: 0.5rem;
+}
+
+#footer > p {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 650px) {
+    section {
+        padding: 3%;
+    }
+
+    iframe {
+        height: calc((100vw - (3vw * 2)) * (9/16)); /* (100 - padding) * aspect_ratio */
+    }
+}
