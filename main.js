@@ -3,9 +3,9 @@
 const downloadData = {
     "Linux" : [
         {
-            title : "v2.1 Blender 2.80",
+            title : "v2.1 Blender 2.8x",
             isTestBuild : true,
-            link : "https://github.com/JacquesLucke/animation_nodes/releases/download/v2.1.4/animation_nodes_v2_1_4_linux_py37.zip"
+            link : "https://github.com/JacquesLucke/animation_nodes/releases/download/daily/animation_nodes_v2_1_linux_py37.zip"
         },
         {
             title : "v2.1 Blender 2.7x",
@@ -20,9 +20,9 @@ const downloadData = {
     ],
     "Windows" : [
         {
-            title : "v2.1 Blender 2.80",
+            title : "v2.1 Blender 2.8x",
             isTestBuild : true,
-            link : "https://github.com/JacquesLucke/animation_nodes/releases/download/v2.1.4/animation_nodes_v2_1_4_windows_py37.zip"
+            link : "https://github.com/JacquesLucke/animation_nodes/releases/download/daily/animation_nodes_v2_1_windows_py37.zip"
         },
         {
             title : "v2.1 Blender 2.7x",
@@ -37,9 +37,9 @@ const downloadData = {
     ],
     "MacOS" : [
         {
-            title : "v2.1 Blender 2.80",
+            title : "v2.1 Blender 2.8x",
             isTestBuild : true,
-            link : "https://github.com/JacquesLucke/animation_nodes/releases/download/v2.1.4/animation_nodes_v2_1_4_macOS_py37.zip"
+            link : "https://github.com/JacquesLucke/animation_nodes/releases/download/daily/animation_nodes_v2_1_macOS_py37.zip"
         },
         {
             title : "v2.1 Blender 2.7x",
