@@ -15,5 +15,5 @@ jobs:
       env:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-      run: curl -T index.html ftp://alfa3040.alfahosting-server.de/index.html --user "$FTP_USERNAME:FTP_PASSWORD"
+      run: curl -T index.html ftp://alfa3040.alfahosting-server.de/index.html --user "$FTP_USERNAME:$FTP_PASSWORD"
 
